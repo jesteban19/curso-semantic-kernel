@@ -39,8 +39,8 @@ Considera las sugerencias al refinar una idea.
 """
 
 
-TASK = "un ejercicio corto de programación."
-#TASK = "un eslogan para una tienda de ropa para adolescentes con estilo urbano"
+#TASK = "un ejercicio corto de programación."
+TASK = "un eslogan para una tienda de ropa para adolescentes con estilo urbano"
 
 async def main():
     # 1. Create the reviewer agent based on the chat completion service

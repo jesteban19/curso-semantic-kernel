@@ -40,11 +40,11 @@ async def main():
         arguments=KernelArguments(settings)
     )
 
-    response = await agent.get_response(messages="What is the price of the soup special?")
+    #response = await agent.get_response(messages="What is the price of the soup special?")
     
     #response = await agent.get_response(messages="Cual es el precio de la ensalada de frutas?")
 
-    #response = await agent.get_response(messages="Cual es el precio de la bebida especial?")
+    response = await agent.get_response(messages="Cual es el precio de la bebida especial?")
 
 
     print(response.content)
